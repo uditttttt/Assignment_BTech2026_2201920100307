@@ -1,3 +1,18 @@
+
+  public class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+     }
+ }
+ 
+
 class Solution {
   // Helper function to check if there's a root-to-leaf path with the given targetSum
   public boolean solve(TreeNode root, int targetSum) {
