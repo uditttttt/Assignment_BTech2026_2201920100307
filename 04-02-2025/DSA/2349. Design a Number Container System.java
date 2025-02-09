@@ -39,7 +39,8 @@ class NumberContainers {
       // if (pq == null || pq.isEmpty()) {
       // return -1;
       // }
-
+      
+      // by default pq show min heap property(means elements r arranged in ascending order)
       // return pq.peek(); // Return the smallest index
        
        // Shorthand for above codeA
